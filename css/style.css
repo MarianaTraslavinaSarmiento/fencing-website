@@ -1,11 +1,54 @@
 @import url(./variables.css);
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+}
 
+/* ========== Header ========== */
+.site-header {
+  background: var(--background-color);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.107);
+}
 
+.site-header__inner {
+  max-width: 100%;
+  margin: 0;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header__brand {
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.1;
+  letter-spacing: 0.2px;
+}
+
+.site-header__nav {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+
+.site-header__link {
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  transition: color 220ms ease;
+}
+
+.site-header__link:hover {
+  color: var(--color-green);
+}
