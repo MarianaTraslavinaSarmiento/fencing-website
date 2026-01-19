@@ -1,29 +1,228 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Christian fencing services</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <script src="./js/app.js"></script>
-  </head>
-  <body>
-    <header class="site-header" id="home">
-      <div class="site-header__inner">
-        <a class="site-header__brand" href="#home" aria-label="Go to Home">
-          Christian Fencing Services
-        </a>
 
-        <nav class="site-header__nav" aria-label="Primary">
-          <a class="site-header__link site-header__link--active" href="#home"
-            >Home</a
-          >
-          <a class="site-header__link" href="#about">About</a>
-          <a class="site-header__link" href="#services">Services</a>
-          <a class="site-header__link" href="#gallery">Gallery</a>
-          <a class="site-header__link" href="#contact">Contact</a>
-        </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christian Fencing Services</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <meta name="description"
+    content="Professional residential and commercial fencing services in South Florida. Expert craftsmanship, trusted quality.">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__container container">
+      <a href="#home" class="header__brand">Christian Fencing Services</a>
+
+      <button class="header__toggle" aria-label="Toggle Navigation" aria-expanded="false">
+        <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li><a href="#home" class="header__link">Home</a></li>
+          <li><a href="#about" class="header__link">About</a></li>
+          <li><a href="#services" class="header__link">Services</a></li>
+          <li><a href="#gallery" class="header__link">Gallery</a></li>
+          <li><a href="#contact" class="header__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+      <div class="hero__container container">
+        <h1 class="hero__title">Christian Fencing Services</h1>
+        <p class="hero__subtitle">Professional Residential and Commercial Fencing</p>
+
+        <p class="hero__description">
+          With over 3+ years of experience in the fencing industry, Christian brings expert craftsmanship and dedication
+          to every project. From elegant wood privacy fences to secure commercial installations, we deliver quality
+          results that stand the test of time.
+        </p>
+
+        <ul class="hero__features">
+          <li class="hero__feature">
+            <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span><strong>Custom Fence Installation:</strong> Wood, chain-link, aluminum, and vinyl fencing tailored to
+              your property needs</span>
+          </li>
+          <li class="hero__feature">
+            <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span><strong>Expert Repairs:</strong> Quick and reliable fence repair services to restore your fence's
+              integrity and appearance</span>
+          </li>
+          <li class="hero__feature">
+            <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span><strong>Service Areas:</strong> Proudly serving South Florida including Miami-Dade, Broward, and Palm
+              Beach Counties</span>
+          </li>
+        </ul>
+
+        <a href="tel:+13055550198" class="btn btn--primary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.05 12.05 0 0 0 .57 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.03 12.03 0 0 0 2.81.57A2 2 0 0 1 22 16.92z">
+            </path>
+          </svg>
+          Call: (305) 555-0198
+        </a>
       </div>
-    </header>
-  </body>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section section--light">
+      <div class="container">
+        <h2 class="section__title section__title--dark">About Christian Fencing Services</h2>
+        <div class="about__content">
+          <p>At Christian Fencing Services, we believe in building more than just fences; we build trust. Guided by
+            faith-based values, we are dedicated to providing honest, high-quality workmanship you can rely on. Our team
+            treats every property with respect and care, ensuring that your vision is brought to life with precision and
+            integrity.</p>
+        </div>
+
+        <div class="about__features">
+          <!-- Feature 1 -->
+          <div class="about__feature">
+            <div class="about__icon-wrapper">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <h3 class="about__feature-title">3+ Years Experience</h3>
+            <p class="about__feature-desc">Proven expertise in residential and commercial fencing projects built on
+              quality and reliability.</p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="about__feature">
+            <div class="about__icon-wrapper">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="about__feature-title">Customer-Focused</h3>
+            <p class="about__feature-desc">Dedicated to clear communication, fair pricing, and complete customer
+              satisfaction.</p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="about__feature">
+            <div class="about__icon-wrapper">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+                </path>
+              </svg>
+            </div>
+            <h3 class="about__feature-title">Quality Craftsmanship</h3>
+            <p class="about__feature-desc">Meticulous attention to detail and commitment to using high-quality
+              materials.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+      <div class="container">
+        <h2 class="section__title">Our Services</h2>
+        <div class="services__grid">
+          <div class="service-card">
+            <h3 class="service-card__title">Residential Fencing</h3>
+            <p>Privacy, picket, and decorative fences to enhance your home's curb appeal and security.</p>
+          </div>
+          <div class="service-card">
+            <h3 class="service-card__title">Commercial Fencing</h3>
+            <p>Durable and secure fencing solutions for businesses, industrial sites, and properties.</p>
+          </div>
+          <div class="service-card">
+            <h3 class="service-card__title">Fence Repairs</h3>
+            <p>Restoring damaged fences to their original strength and beauty.</p>
+          </div>
+          <div class="service-card">
+            <h3 class="service-card__title">Custom Gates</h3>
+            <p>Design and installation of custom gates for driveways and walkways.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+      <div class="container">
+        <h2 class="section__title">Gallery</h2>
+        <div class="gallery__grid">
+          <!-- Repeating the example image to simulate a gallery grid -->
+          <div class="gallery__item">
+            <img src="./storage/img/example.png" alt="Recent Fencing Project 1" class="gallery__img">
+          </div>
+          <div class="gallery__item">
+            <img src="./storage/img/example.png" alt="Recent Fencing Project 2" class="gallery__img">
+          </div>
+          <div class="gallery__item">
+            <img src="./storage/img/example.png" alt="Recent Fencing Project 3" class="gallery__img">
+          </div>
+          <div class="gallery__item">
+            <img src="./storage/img/example.png" alt="Recent Fencing Project 4" class="gallery__img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2 class="section__title">Contact Us</h2>
+        <div class="contact__content">
+          <div class="contact__info">
+            <p class="contact__item">
+              <strong class="contact__label">Phone:</strong>
+              <a href="tel:+13055550198" class="contact__link">(305) 555-0198</a>
+            </p>
+            <p class="contact__item">
+              <strong class="contact__label">Email:</strong>
+              <a href="mailto:info@christianfencing.com" class="contact__link">info@christianfencing.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/app.js"></script>
+</body>
+
 </html>
