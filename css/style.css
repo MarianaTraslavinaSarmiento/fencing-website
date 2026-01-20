@@ -234,7 +234,6 @@ a {
 
 .hero__image img {
   width: 100%;
-  height: auto;
   display: block;
   transform: scale(1);
   transition: transform var(--transition);
@@ -286,6 +285,7 @@ a {
 }
 
 @media (min-width: 900px) {
+
   .hero__container {
     flex-direction: row;
     gap: var(--spacing-xl);
@@ -311,7 +311,9 @@ a {
     /* Allow image to fill column */
     height: auto;
   }
+
 }
+
 
 /* Button */
 .btn {
@@ -794,5 +796,14 @@ a {
 
   .quote__reasons__card {
     margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container,
+  .quote__section__content,
+  .materials__grid
+    {
+    padding-inline: 15px;
   }
 }
